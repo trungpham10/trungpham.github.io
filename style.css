@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(229, 231, 236);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.greeting {
+  margin-top: 100px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.projects {
+  margin-top: 100px;
+}
+
+#name,
+#projects {
+  font-family: cursive;
+  font-size: x-large;
+}
+
+#get-it-done {
+  background-color: rgb(61, 51, 150);
+  color: whitesmoke;
+}
+
+#moments {
+  background-color: rgb(150, 122, 122);
+  color: whitesmoke;
+}
+
+#carrieokey {
+  background-color: rgb(11, 134, 58);
+  color: whitesmoke;
+}
+
+.shot {
+  display: grid;
+  height: 100%;
+  padding-top: 50px;
+}
+
+.center-fit {
+  max-width: 70%;
+  max-height: 100vh;
+  margin: auto;
+  float: left;
+}
+
+.shot-info {
+  text-align: center;
+  padding: 30px;
+}
+
+.live-btn {
+  width: 100px;
+  height: 50px;
+}
+
+.projects {
+  text-align: center;
+}
+
+footer {
+  height: 30px;
+  text-align: center;
+  padding: 30px;
+}
