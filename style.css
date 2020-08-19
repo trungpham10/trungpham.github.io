@@ -8,18 +8,18 @@ body {
 }
 
 .title {
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
 }
 
 .greeting {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: auto;
   text-align: center;
 }
 
 .projects {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #name,
