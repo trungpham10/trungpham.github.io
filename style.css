@@ -43,6 +43,10 @@ body {
   color: whitesmoke;
 }
 
+#trivia {
+  background-color: rgb(161, 43, 43);
+}
+
 .shot {
   display: grid;
   height: 100%;
