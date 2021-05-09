@@ -1,180 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="app.js"></script>
-    <title>Trung Pham</title>
-  </head>
-  <body>
-    <div>
-      <section style="background-image: url('');">
-        <header>
-          <div>
-            <nav>
-              <ul>
-                <!-- <li><a href="/">About</a></li>
-                <li><a href="/projects">Projects</a></li> -->
-              </ul>
-            </nav>
-          </div>
-        </header>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js"></script>
+  <title>Trung Pham</title>
+</head>
+
+<body>
+  <div>
+    <div class="landing-page-view" style="margin-top: 10px">
+      <section>
         <div class="title">
-          <h1 id="name">Trung Pham</h1>
-          <p>software programmer</p>
+          <h1 id="name" style="font-weight: 200;">Trung Pham</h1>
+          <p><em>software engineer</p></em>
         </div>
-
-        <br />
       </section>
 
-      <br />
+      <hr style="margin-top: 20px;">
 
-      <div class="greeting">
-        <!-- <h3>Bio</h3> -->
-        <p>
-          Hi, I'm a software programmer based in Chicago, IL.
-        </p>
-        <br />
-        <p>
-          Here are my
-          <a
-            href="https://docs.google.com/document/d/1Geqh1v3XCbu5VVeRuhetv6NROnNe--nef9jZZPGcb0o/edit?usp=sharing"
-            >Resume</a
-          >, <a href="https://github.com/trungpham10">Github</a>, and
-          <a href="https://www.linkedin.com/in/trungapham/">LinkedIn</a>.
+      <div class="greeting" style="margin-top: 20px; position: relative;">
+        <p style="font-weight: 100; font-size: 30px;">
+          Hi! I'm a software engineer based in <s>Chicago</s> <u>New York</u>.
         </p>
       </div>
 
       <br />
-
-      <section class="projects">
-        <h1 id="projects">Projects</h1>
-        <br />
-        <section id="trivia" class="project-shots">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div class="shot">
-                  <img class="center-fit" src="./project-img/trivia.png" />
-                </div>
-                <div class="shot-info">
-                  <h2>Trivia Quiz Challenge</h2>
-                  <br />
-                  <p>
-                    A simple trivia quiz to challenge your knowledge, up to 21 questions!
-                  </p>
-                  <br />
-                  <button class="live-btn">
-                    <a href="https://trivia-challenge-play.herokuapp.com/">Live Site</a>
-                  </button>
-                  <button class="github-btn">
-                    <a href="https://github.com/trungpham10/tandem_challenge"
-                      >Github</a
-                    >
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="carrieokey" class="project-shots">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div class="shot">
-                  <img class="center-fit" src="./project-img/carrieokey.png" />
-                </div>
-                <div class="shot-info">
-                  <h2>Carrie O'Key</h2>
-                  <br />
-                  <p>
-                    A karaoke app where you can look up songs, find new songs
-                    and sing with your friends. Written with React and Node.js.
-                  </p>
-                  <br />
-                  <button class="live-btn">
-                    <a href="https://carrieokey.herokuapp.com">Live Site</a>
-                  </button>
-                  <button class="github-btn">
-                    <a href="https://github.com/joshua-agee/CarrieOKey"
-                      >Github</a
-                    >
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="moments" class="project-shots">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div class="shot">
-                  <img class="center-fit" src="./project-img/moments.png" />
-                </div>
-                <div class="shot-info">
-                  <h2>Moments</h2>
-                  <br />
-                  <p>
-                    A photo storing app where users can store their photos with
-                    title, description, photo URL. Technology used: Node.js,
-                    Mongoose, Express and EJS.
-                  </p>
-                  <br />
-                  <button class="live-btn">
-                    <a href="https://dry-stream-38790.herokuapp.com"
-                      >Live Site</a
-                    >
-                  </button>
-                  <button class="github-btn">
-                    <a href="https://github.com/trungpham10/photo-storing-app"
-                      >Github</a
-                    >
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="get-it-done" class="project-shots">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div class="shot">
-                  <img
-                    class="center-fit"
-                    src="./project-img/get-it-done-02.png"
-                  />
-                </div>
-                <div class="shot-info">
-                  <h2>Get It Done.</h2>
-                  <br />
-                  <p>
-                    A simple to-do list application for getting things done.
-                    Written with HTML, CSS, JavaScript, jQuery. Used 3rd party
-                    API to render quotes.
-                  </p>
-                  <br />
-                  <button class="live-btn">
-                    <a href="https://appgetdone.com">Live Site</a>
-                  </button>
-                  <button class="github-btn">
-                    <a
-                      href="https://github.com/trungpham10/trungpham10.github.io"
-                      >Github</a
-                    >
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </section>
     </div>
-  </body>
+
+    <section class="projects">
+      <h1 id="projects">Projects</h1>
+      <br />
+      <section id="trivia" class="project-shots">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="shot">
+                <img class="center-fit" src="./project-img/trivia.png" />
+              </div>
+              <div class="shot-info">
+                <h2>Trivia Quiz Challenge</h2>
+                <br />
+                <p>
+                  A simple trivia quiz to challenge your knowledge, up to 21 questions!
+                </p>
+                <br />
+                <button class="live-btn">
+                  <a href="https://trivia-challenge-play.herokuapp.com/">Live Site</a>
+                </button>
+                <button class="github-btn">
+                  <a href="https://github.com/trungpham10/tandem_challenge">Github</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="carrieokey" class="project-shots">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="shot">
+                <img class="center-fit" src="./project-img/carrieokey.png" />
+              </div>
+              <div class="shot-info">
+                <h2>Carrie O'Key</h2>
+                <br />
+                <p>
+                  A karaoke app where you can look up songs, find new songs
+                  and sing with your friends. Written with React and Node.js.
+                </p>
+                <br />
+                <button class="live-btn">
+                  <a href="https://carrieokey.herokuapp.com">Live Site</a>
+                </button>
+                <button class="github-btn">
+                  <a href="https://github.com/joshua-agee/CarrieOKey">Github</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="moments" class="project-shots">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="shot">
+                <img class="center-fit" src="./project-img/moments.png" />
+              </div>
+              <div class="shot-info">
+                <h2>Moments</h2>
+                <br />
+                <p>
+                  A photo storing app where users can store their photos with
+                  title, description, photo URL. Technology used: Node.js,
+                  Mongoose, Express and EJS.
+                </p>
+                <br />
+                <button class="live-btn">
+                  <a href="https://dry-stream-38790.herokuapp.com">Live Site</a>
+                </button>
+                <button class="github-btn">
+                  <a href="https://github.com/trungpham10/photo-storing-app">Github</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="get-it-done" class="project-shots">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="shot">
+                <img class="center-fit" src="./project-img/get-it-done-02.png" />
+              </div>
+              <div class="shot-info">
+                <h2>Get It Done.</h2>
+                <br />
+                <p>
+                  A simple to-do list application for getting things done.
+                  Written with HTML, CSS, JavaScript, jQuery. Used 3rd party
+                  API to render quotes.
+                </p>
+                <br />
+                <button class="live-btn">
+                  <a href="https://appgetdone.com">Live Site</a>
+                </button>
+                <button class="github-btn">
+                  <a href="https://github.com/trungpham10/trungpham10.github.io">Github</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>
+</body>
+
 </html>
