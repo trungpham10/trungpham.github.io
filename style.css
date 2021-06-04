@@ -39,6 +39,10 @@ body {
   /* color: rgb(98, 44, 250); */
 }
 
+#projects-begin {
+  padding-top: 80px;
+}
+
 #get-it-done {
   background-color: rgb(61, 51, 150);
   color: whitesmoke;
