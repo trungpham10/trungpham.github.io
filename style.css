@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(245, 245, 247);
   font-family: 'Abel', sans-serif;
@@ -8,7 +12,7 @@ body {
 
 .landing-page-view {
   height: 700px;
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
 * {
