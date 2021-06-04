@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
 body {
   background-color: rgb(245, 245, 247);
+  font-family: 'Abel', sans-serif;
+  background-image: url("project-img/background.jpeg");
 }
 
 .landing-page-view {
   height: 700px;
-  padding: 70px;
+  padding: 150px;
 }
 
 * {
@@ -32,7 +36,7 @@ body {
 #name,
 #projects {
   font-size: 40px;
-  color: rgb(98, 44, 250);
+  /* color: rgb(98, 44, 250); */
 }
 
 #get-it-done {
