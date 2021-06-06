@@ -85,6 +85,12 @@ body {
   border-radius: 10px;
 }
 
+@media (max-width: 400px) {
+  .shot img {
+    width: 350px;
+  }
+}
+
 .shot-info {
   text-align: left;
   padding: 30px;
