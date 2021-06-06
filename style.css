@@ -36,10 +36,15 @@ body {
 #name,
 #projects {
   font-size: 40px;
+  text-align: center;
 }
 
-#projects-begin {
-  padding-top: 80px;
+#projects {
+  margin-bottom: 40px;
+}
+
+#projects-start {
+  padding-top: 100px;
 }
 
 #get-it-done {
