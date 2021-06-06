@@ -26,6 +26,24 @@ body {
   font-size: 19px;
 }
 
+.fab {
+  font-size: 20px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.fab:hover {
+  opacity: 0.5;
+}
+
+.fa-github, .fa-linkedin {
+  background:rgb(5, 5, 5);
+  color: white;
+}
+
 .greeting {
   margin-top: 30px;
   margin-left: auto;
