@@ -36,7 +36,6 @@ body {
 #name,
 #projects {
   font-size: 40px;
-  /* color: rgb(98, 44, 250); */
 }
 
 #projects-begin {
@@ -44,22 +43,18 @@ body {
 }
 
 #get-it-done {
-  /* background-color: rgb(61, 51, 150); */
   color: black;
 }
 
 #moments {
-  /* background-color: rgb(150, 122, 122); */
   color: black;
 }
 
 #carrieokey {
-  /* background-color: rgb(11, 134, 58); */
   color: black;
 }
 
 #trivia {
-  /* background-color: rgb(175, 58, 58); */
   color: black;
 }
 
@@ -70,7 +65,6 @@ body {
   max-width: 100%;
   object-fit: cover;
   text-align: center;
-  /* padding-top: 50px; */
 }
 
 .shot .after {
@@ -141,9 +135,17 @@ body {
   }
 }
 
+.shot .box {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
 .shot:hover .box {
-  opacity: 0.7;
-  background-color: #303029;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+  opacity: 0.2;
 }
 
 .after {
@@ -158,8 +160,7 @@ body {
 
 .shot:hover .after {
   display: block;
-  color: red;
-  opacity: 0.5;
+  color: black;
 }
 
 footer {
