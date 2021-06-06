@@ -95,7 +95,6 @@ body {
 .github-btn {
   width: 100px;
   height: 50px;
-  /* background-color: gray; */
 }
 
 .live-btn:hover {
@@ -211,9 +210,17 @@ button a {
 }
 
 .btn-group {
-  width: 90%;
-  height: 50px;
-  /* background-color: purple; */
-  padding-bottom: 20px;
-  margin: auto auto 20px auto;
+  top: 40%;
+  left: 32%;
+  position: absolute;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  width: 70px;
+  height: 30px;
+  border: solid 2px black;
+  font-size: 1.5rem;
+  padding: 5px;
 }
