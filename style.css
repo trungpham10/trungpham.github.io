@@ -129,14 +129,6 @@ body {
   height: 50px;
 }
 
-.live-btn:hover {
-  /* background-color: black; */
-}
-
-.github-btn:hover {
-  /* background-color: black; */
-}
-
 .projects {
   text-align: center;
   display: flex;
@@ -255,4 +247,9 @@ button a {
   border: solid 2px black;
   font-size: 1.5rem;
   padding: 5px;
+}
+
+.button:hover {
+  opacity: 0.8;
+  background: gray;
 }
