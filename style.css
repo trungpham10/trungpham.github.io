@@ -234,9 +234,8 @@ button a {
 }
 
 .btn-group {
-  top: 40%;
-  left: 32%;
-  position: absolute;
+  padding: 120px 0;
+  text-align: center;
 }
 
 .button {
