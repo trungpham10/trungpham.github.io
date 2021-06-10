@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -8,16 +13,21 @@ body {
   background-color: rgb(245, 245, 247);
   font-family: 'Abel', sans-serif;
   background-image: url("project-img/background.jpeg");
+  /* background-size: 100%;
+  width: fit-content;
+  height: 400px; */
+}
+
+@media (max-width: 420px) {
+  body {
+    background-size: 100%;
+    height: 100%;
+  }
 }
 
 .landing-page-view {
   height: 700px;
   padding-top: 200px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 .title {
@@ -56,22 +66,19 @@ body {
   font-size: 30px;
 }
 
+#projects-start {
+  margin: auto;
+}
+
 #projects {
   font-size: 40px;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 #name {
   font-size: 55px;
   text-align: center;
-}
-
-#projects {
-  margin-bottom: 40px;
-}
-
-#projects-start {
-  padding-top: 100px;
 }
 
 #get-it-done {
@@ -112,7 +119,7 @@ body {
   border-radius: 10px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .shot img {
     width: 350px;
   }
@@ -121,6 +128,10 @@ body {
 .shot-info {
   text-align: left;
   padding: 30px;
+}
+
+.shot-info h2 {
+  margin-bottom: 10px;
 }
 
 .live-btn,
@@ -142,11 +153,11 @@ body {
   border-radius: 15px;
   width: 490px;
   height: 480px;
-  box-shadow: 0 3px 3px #8b8787;
-  border: thin rgb(5, 5, 5);
+  box-shadow: 0 3px 3px #000000;
+  border: solid 0.5px rgb(5, 5, 5);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .projects {
     text-align: center;
     display: flex;
@@ -169,7 +180,7 @@ body {
 .shot:hover .box {
   -webkit-filter: blur(3px);
   filter: blur(3px);
-  opacity: 0.2;
+  opacity: 0.5;
 }
 
 .after {
